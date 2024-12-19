@@ -4,7 +4,7 @@
     "name": "Such Activity",
     "description": "Wow",
     "version": "1.0",
-    "permissions": ["scripting"],
+    "permissions": ["scripting", "tabs"],
     "host_permissions": ["<all_urls>"],
 
     "action": {
