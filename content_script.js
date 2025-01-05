@@ -1,8 +1,3 @@
-try{document.querySelector("#robot").click()}
-catch(e){
-
-}
-
 try{document.querySelector("#rtg").submit()}
 catch(e){
 
