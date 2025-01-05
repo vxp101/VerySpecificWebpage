@@ -11,7 +11,7 @@ function injectTheScript() {
     })
 
     chrome.tabs.query({active: true, 'windowId': chrome.windows.WINDOW_ID_CURRENT}, tabs => {
-           document.querySelector("#currentwebpage").innerHTML = "Webpage: " + tabs[0].url
+           document.querySelector("#clickactivity").innerHTML = "Webpage: " + tabs[0].url
     });
 
     if(!done){
