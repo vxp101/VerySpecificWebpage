@@ -6,7 +6,9 @@
     "version": "1.0",
     "permissions": ["scripting", "tabs"],
     "host_permissions": ["<all_urls>"],
-
+    "background": {
+        "service_worker": "bg.js"
+    },
     "action": {
         "default_title": "Click Me",
         "default_popup": "popup.html"
