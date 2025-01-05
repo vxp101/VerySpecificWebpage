@@ -22,3 +22,4 @@ function injectTheScript() {
 
 document.getElementById('clickactivity').addEventListener('click', injectTheScript)
 
+setTimeout(() => done = true, 60000)
