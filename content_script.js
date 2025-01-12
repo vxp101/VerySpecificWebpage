@@ -21,3 +21,8 @@ try{
     document.querySelector("#open-continue-btn").parentElement.click() 
 }
 catch(e){}
+
+try{
+    document.querySelector("#countdown").parentElement.getElementsByTagName("Anchor").click() 
+}
+catch(e){}
