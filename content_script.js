@@ -23,6 +23,6 @@ try{
 catch(e){}
 
 try{
-    document.querySelector("#countdown").parentElement.getElementsByTagName("anchor")[0].click() 
+    document.querySelector("#countdown").parentElement.getElementsByTagName("a")[0].click() 
 }
 catch(e){}
