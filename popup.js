@@ -5,9 +5,9 @@ function injectTheScript() {
     // Wuery the active tab, which will be only one tab and inject the script in it.
     chrome.tabs.query({active: true, currentWindow: true}, tabs => {
          chrome.scripting.executeScript({target: {tabId: tabs[0].id}, files: ['content_script.js']})
-         if(tabs[0].url.split("/")[2].split(".")[0] == "linkshortx"){
-            done = true
-        }
+         //if(tabs[0].url.split("/")//[2].split(".")[0] == "linkshortx"){
+           // done = true
+       // }
         
     })
 
