@@ -2,7 +2,7 @@ try{document.querySelector("#robot").click()}
 catch(e){
 
 }
-try{document.querySelector("#rtg_snp21").querySelector(".rtg_btn").click()}
+try{document.querySelector("#rtg-snp21").querySelector(".rtg_btn").click()}
 catch(e){
 
 }
