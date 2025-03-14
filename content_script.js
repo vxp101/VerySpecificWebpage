@@ -29,3 +29,5 @@ try{
     document.querySelector("#countdown").parentElement.getElementsByTagName("a")[0].click() 
 }
 catch(e){}
+
+try{document.querySelector("#rtg-snp21").children[0].click()}catch{}
