@@ -1,1 +1,1 @@
-Skip required ads at the touch of a button for a service i used when i listened to audio books
+Skip required ads at the touch of a button. this was for an audiobook service that forced ads to listen to the next 10 chapters
